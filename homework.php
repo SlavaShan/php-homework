@@ -1,15 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-</head>
-<body>
-	<?php 
-
 <?php 
 
-/* 1 задача
+// задача 1
 
     $arr = array("Раз","Два","Три"); 
 
@@ -23,10 +14,9 @@
 
     myname($arr);
 
-*/
 
-/*
- 2 задача
+
+// задача 2
 
     $arr = array(1,2,3,4,5);
     $str = "+";
@@ -49,7 +39,8 @@
 */
 
 
-/* 3 задача   
+// задача 3
+
     $str = "*";
 
     function result() {
@@ -80,8 +71,8 @@
     echo result($str, 1,2,3,4,5);
 */
 
-/*
-задача 4
+
+// задача 4
 
    function result($num1, $num2) {
         if (is_int($num1) && is_int($num2)) {
@@ -106,10 +97,11 @@
 
     result(10,9);
 
-*/
 
 
-/*задача 5
+
+// задача 5
+
     $arr = array( 1, 22, 5, 66, 3, 57);
 
     foreach($arr as $val)
@@ -124,11 +116,4 @@
     {
         echo (" $val");
     }
-*/
 
-    
-
-
-?>
-</body>
-</html>
